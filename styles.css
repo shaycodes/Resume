@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+h1, h2 {
+	font-weight: 100;
+	color: rebeccapurple;
+}
+
+body {
+	min-height: 100%;
+	background: lightpink;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #222;
+	font-size: 14px;
+	line-height: 26px;
+	padding-bottom: 50px;
+}
+
+.container {
+	max-width: 900px;
+	background: #fff;
+	margin: 0px auto 0px;
+	box-shadow: 1px 1px 3px deeppink;
+	border-radius: 3px;
+	padding: 40px;
+	margin-top: 50px;
+}
+
+.header {
+	margin-bottom: 30px;
+
+}
+
+.contact-info {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: rebeccapurple;
+}
+
+.email ,
+.phone {
+	color: #2D2D2A;
+	font-weight: 300;
+}
+
+.separator {
+	height: 10px;
+	display: inline-block;
+	border-left: 1px solid #2D2D2A;
+	margin: 0px 10px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-style: italic;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.
+}
+/* Dashed border */
+hr.dashed {
+	border-top: 3px dashed #bbb;
+}
+
+/* Dotted border */
+hr.dotted {
+	border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+	border-top: 1px solid hotpink;
+}
+
+/* Rounded border */
+hr.rounded {
+	border-top: 8px solid #bbb;
+	border-radius: 5px;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+.column-2 {
+	float: right;
+	width: 40%;
+}
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
